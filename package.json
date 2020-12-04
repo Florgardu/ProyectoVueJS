@@ -1,0 +1,64 @@
+{
+  "name": "proyecto_final",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@vuelidate/core": "^2.0.0-alpha.7",
+    "@vuelidate/validators": "^2.0.0-alpha.5",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "bootswatch": "^4.5.3",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "popper.js": "^1.16.1",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.0",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-router": "^4.0.0-rc.2",
+    "vuejs-jwt": "^1.1.0",
+    "vuex": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "vue-cli-plugin-fontawesome": "~0.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/airbnb"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
